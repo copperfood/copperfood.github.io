@@ -8,12 +8,12 @@ subtitle: ''
 description: ''
 keywords:
 author: Chen Yingxiang
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://kcx064.github.io
+url: https://copperfood.github.io
 root: ''
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,5 +105,5 @@ theme: nexmoe
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/kcx064/kcx064.github.io.git
+  repository: https://github.com/copperfood/copperfood.github.io.git
   branch: gh-pages
