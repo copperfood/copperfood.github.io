@@ -7,13 +7,14 @@ title: 含铜食物交换图表
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Chen Yingxiang
+language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://kcx064.github.io
+root: ''
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,9 +98,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: nexmoe
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/kcx064/kcx064.github.io.git
+  branch: gh-pages
