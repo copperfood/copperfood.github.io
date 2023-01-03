@@ -13,7 +13,7 @@ function: # 功能开关，可选值（true,false）
   wordCount: false # 是否开启文章字数统计 (true, false)
 
 imageCDN: # 图片 CDN 功能
-  enable: true # 开启该功能  
+  enable: false # 开启该功能  
   origin:  /images/ # 图片原始目录
   to: https://gcore.jsdelivr.net/gh/copperfood/copperfood.github.io@gh-pages/images/ # 图片 CDN 域名
   # to: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/ # 图片 CDN 域名
